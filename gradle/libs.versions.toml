@@ -47,10 +47,14 @@ androidx-work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx"
 androidx-data-store = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "dataStore"}
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-kapt = { id = "kotlin-kapt" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+myproject-android-feature = { id = "myproject.android.feature", version = "unspecified" }
 
